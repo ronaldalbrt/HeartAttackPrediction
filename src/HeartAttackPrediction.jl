@@ -1,4 +1,4 @@
-module IC2Project
+module HeartAttackPrediction
 
 include("SubsetSelection.jl")
 using .SubsetSelection
@@ -6,4 +6,4 @@ using .SubsetSelection
 include("ModelEstimation.jl")
 using .ModelEstimation
 
-end # module IC2Project
+end # module HeartAttackPrediction
